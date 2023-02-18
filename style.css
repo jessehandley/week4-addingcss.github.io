@@ -1,34 +1,43 @@
+/* <length> value */
+max-width: 3.5em;
 
-<body>
-    <div id="content" max-width:1600px>
-        <header>
-        margin: 0 auto;
-        text-align: center;
-        <section class="rapids-card">
-    <img class="card-img" src="rapids.jpg" alt="rafting boat">
-    <img class="icon" src="oars.png" alt="oars icon">
-    <h2>Rapids</h2>
-</section>
-<div id="background"></div> 
-#background {
-    height: 725px;}
-<img class="mountains" src="mountains.jpg" alt="Misty mountains">
-<section class="msg">
-    <h2>More Than Just The Thrill</h2>
-    <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-    <a class='join' href="rivers.html">Join Us</a>
-</section>
-        </footer>
-    </div>
-</body>
-
-p {
-    margin: 35px;
+.center {
+    text-align: center;
   }
+  body {
+    background-color: lightblue;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  p {
+    border: 2px solid powderblue;
+    margin: 50px;
+  }
+
+#content
+max-width: 1600px;
+margin: 0 auto;
+
+#background {
+    height: 725px;
+}
+
+div { background-color: #FFFFFF; }
+
 
 
 body {
-    background-color: #fcfbfb;}
+    background-color: #fcfbfb; 
+}
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -36,16 +45,71 @@ nav a:hover {
     background-color: black;
 }
 
+.book, .join {
+    background-color: black;
+}
+
+.book:hover, .join:hover {
+    background-color: black;
+}
+#background {
+    background-color: black;
+}
+.msg {
+    background-color: black;
+}
+footer {
+    background-color: black;
+}
+
+nav a {
+    background-color: black;
+}
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }    
-
+.home-title {
+    background-color: black;
+}
+h4 {
+    background-color: black;
+}
+.book, .join {
+    background-color: black;
+}
+.book:hover, .join:hover {
+    background-color: black;
+}
+.msg h2 {
+    background-color: black;
+}
+.msg p {
+    background-color: black;
+}
+footer {
+    background-color: black;
+}
+footer a {
+    background-color: black;
+}
+footer a:hover {
+    background-color: black;
+} 
 .icon {
     width: 80px;
 }
-
 nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+.book, .join {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+footer a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;

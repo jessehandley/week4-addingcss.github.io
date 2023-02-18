@@ -126,7 +126,12 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 }    
-.book, .join {
+.book {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+.join {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -140,7 +145,11 @@ footer p {
     text-align: center;
     font-size: 1.2em;
 }    
-footer p a:hover {
+footer p {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
+}    
+a:hover {
+    text-align: center;
+    text-decoration: none;
 }    

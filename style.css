@@ -23,9 +23,10 @@ max-width: 3.5em;
     margin: 50px;
   }
 
-#content
+#content {
 max-width: 1600px;
 margin: 0 auto;
+}
 
 #background {
     height: 725px;

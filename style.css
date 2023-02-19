@@ -35,7 +35,9 @@ margin: 0 auto;
 }
 
 div { background-color: #FFFFFF; }
-
+.icon {
+    width: 80px;
+}
 
 
 body {
@@ -121,6 +123,12 @@ footer a:hover {
 .icon {
     width: 80px;
 }
+
+
+
+
+
+
 nav a {
     text-align: center;
     color: #fcfbfb;
@@ -148,8 +156,14 @@ footer p {
 footer p {
     text-align: center;
     text-decoration: none;
-}    
+}   
+.icon {
+    width: 80px;
+} 
 a:hover {
     text-align: center;
     text-decoration: none;
 }    
+.icon {
+    width: 80px;
+}
